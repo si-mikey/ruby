@@ -3,6 +3,19 @@
 require 'json'
 
 
+names = ['mayra', 'mikey', "cha cha"]
+
+
+names.each { |name| puts name }
+ 
+
+
+
+
+
+
+
+abort("---")
 data = File.open("data.json", "r")
 
 puts data = data.read()
